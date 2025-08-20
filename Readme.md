@@ -33,5 +33,11 @@ Flush all PM2 logs:
 pm2 flush
 ```
 
+## Github Fix
+Github:
+```bash
+git remote set-url origin git@github.com:aldrich-energy/AldrichAPI.git
+```
+
 sudo certbot certonly --manual --preferred-challenges dns -d aimcsexpo.web.app
 
