@@ -2,7 +2,8 @@ const axios = require('axios');
 const jwt = require('jsonwebtoken');
 const serviceAccount = require('../config/firebase-service-account.json');
 const { db, admin } = require('../firebaseInit');
-const FIREBASE_PROJECT_ID = 'aldrich-45226';
+const FIREBASE_PROJECT_ID = 'aldrich-45226
+';
 
 // Function to generate Firebase access token
 function getFirebaseAccessToken() {
