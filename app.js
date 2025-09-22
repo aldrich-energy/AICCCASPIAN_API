@@ -95,7 +95,7 @@ const certificate = fs.readFileSync('/etc/letsencrypt/live/api.aldrich-energy.co
 const credentials = { key: privateKey, cert: certificate };
 
 // Create HTTPS server
-const PORT = process.env.PORT || 3006;
+const PORT = process.env.PORT || 3007;
 https.createServer(credentials, app).listen(PORT, () => {
     console.log(`HTTPS Server is running on port ${PORT}`);
     console.log(`Uploads directory: ${uploadsPath}`);
